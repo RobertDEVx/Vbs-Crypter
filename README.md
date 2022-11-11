@@ -1,4 +1,4 @@
 # Vbs-Crypter
 Vbs Crypter Stub Sources.
 
-https://t.me/pillarcrypter
+https://t.me/PillarSoftware
